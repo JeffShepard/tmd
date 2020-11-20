@@ -185,7 +185,7 @@ color: white;
     top: 83px;
     left: 0;
     right: 0;
-    background: #014073 !important;
+    background: rgba(81, 161, 241, 0.1)!important;
     z-index: 999;
 }
 .ace-responsive-menu > li {
@@ -266,8 +266,10 @@ img.wt-block-image {
 }
 .hero-img {
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 100%;
     background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
 .inner-page{
@@ -1413,8 +1415,10 @@ ul.price-options li{
 ------------------------------------*/
 .wt-hero-img {
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 100% 0;
   background-size: cover;
+  max-width: 100%;
+  height:auto;
 }
 
 /*----------------------------------

@@ -92,8 +92,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero-img {
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 100%;
     background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
 .inner-page{
@@ -190,9 +192,12 @@ section.wt-section.hero-large h1 {
 }
 .hero-img {
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 100%;
     background-size: cover;
+    width: 100%;
+    height: auto;
 }
+
 .inner-page{
     background: #006bdf;
 }  
@@ -255,9 +260,9 @@ section.wt-section.hero-large h1 {
 @media (max-width: 991px) {
 .hero-img { 
     background-position: 74%; 
-}
-}
+
+}}
 
 #big-text {
-  margin: 0 0 250px 0 !important;
+  padding: 0 0 250px 0 ;
 }
